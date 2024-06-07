@@ -1,0 +1,10 @@
+{
+  "title": "Welcome",
+  "titleMessage": "Getting started with Grizzly",
+  "subTitle": "Grizzly AUTH",
+  "message": "Thank you for signing up. We are ready to provide you with all our services. One more step is needed to compelete your registration. Just verify your email address to get started.",
+  "btnMessage": "Confirm Registration",
+  "btnSubMessage": "If you need any further information, please don't hesitate to contact us",
+  "contactMessage": "Our contact",
+  "contactEmail": "contact@grizzly-api.com"
+}
