@@ -1,0 +1,18 @@
+{
+  "title": "Welcome to Grizzly API",
+  "communityMessage": " First of all, We'd like to extend a warm welcome to the Grizzly API platform! Thank you for choosing our platform to manage your microservices. It’s great to have you aboard!",
+  "grizzlyMessage": "Grizzly API is a low / Zero code framework that enables you to create your microservices / REST API in a few steps according to your needs, in a fairly simple and fast way, based on the latest technical standards of the market. It facilitates the process of designing, deploying and sharing multiple APIs while respecting Open API standards. The Grizzly API is an open-source platform and is also available as a free Cloud SaaS product for community use.",
+  "offerMessage": "Briefly, it offers :",
+  "fonctionnality1Message": "Design, Create, test and share REST APIs",
+  "fonctionnality2Message": "Secure the created REST APIs with IAM and other Identity Providers like Keycloak, Google, Facebook, Linkedin, Github and Gitlab",
+  "fonctionnality3Message": "Link various data sources, including SQL databases like MySQL, PostgreSQL, SQLServer, MariaDB, IBM AS/400, and NoSQL databases like MongoDB, ElasticSearch, and CoucheBase",
+  "fonctionnality4Message": "Export your microservice in Docker and provide all the necessary documentation required to run them",
+  "fonctionnality5Message": "Execute transformations on markup resources (XSL, FreeMarker)",
+  "fonctionnality6Message": "Simulate a content delivery network for static resources",
+  "fonctionnality7Message": "Expose an API to manage your Open Data stored on CSV files",
+  "btnSubMessage": "Check it out",
+  "contactEmail": "contact@grizzly-api.com",
+  "gettingStartedMessage": "Getting Started",
+  "feedbackMessage": "Ready to get going? We’ll walk you through everything step-by-step inside Grizzly API:",
+  "emailingMessage": "If you have any questions about the support process, please feel free to reach out to our team by emailing us"
+}
