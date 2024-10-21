@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: grizzly-api-core
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  main:
+    allow-circular-references: true
+server:
+  port: 8090
+  max-http-request-header-size: 14800000
+
+core:
+  oauth2:
+    grant_type: password #authorization_code,refresh_token,password,implicit
+    scope: read # read,write
+    token_validity: 36000
+    refresh_token_validity: 36000
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+        security: INFO
+        mail: DEBUG
+      mongodb.driver: WARN
+    fr.codeonce: DEBUG
+    fr.codeonce.grizzly.core.service.security.APIKeyAuthFilter: ERROR
+    javax.mail: DEBUG
+    org.springframework.mail: DEBUG
+    com.sun.mail.smtp: DEBUG
+app:
+  cache: #https://github.com/ben-manes/caffeine/wiki/Eviction
+    maximumSize: 200
+    expireAfterAccess: 7
+    timeUnit: DAYS
+    containerloadingPolicy: NEWEST
+  saxon:
+    hasLicense: false
+mailingEnabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+  health:
+    elasticsearch:
+      enabled: false
