@@ -1,0 +1,66 @@
+docker: 'false'
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/grizzly-api
+      database: grizzly-api
+  #SMTP Configuration
+  mail:
+    host: host
+    port: 587
+    username: username
+    password: password
+    properties:
+      mail:
+        smtp:
+        auth: true
+        connectiontimeout: 5000
+        timeout: 5000
+        writetimeout: 5000
+        starttls:
+          enable: true
+          trust: host
+        ssl:
+          trust: host
+    from: noreply@grizzly-api.com
+    personal: "Grizzly AUTH"
+frontUrl: http://localhost:4900
+ssoUrl: http://localhost:4900
+issuer-url: http://localhost:8090/oauth/token
+authorization_endpoint: http://localhost:8090/oauth/authorize
+token_keys: http://localhost:8090/token_keys
+
+github:
+  client:
+    clientId: 93cdf656cc3009b2f259
+    clientSecret: c0e7d4d5b087dd9065e9296bcfcf64718c6393d9
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+  resource:
+    userInfoUri: https://api.github.com/user
+    emailInfoUri: https://api.github.com/user/emails
+    salt: co%de01/
+
+google:
+  client:
+    clientId: googleClientId
+    clientSecret: googleClientSecret
+    accessTokenUri: https://oauth2.googleapis.com/token
+  resource:
+    userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+
+core:
+  oauth2:
+    client_id: grizzly-clientID
+    client_secret: grizzly-clientSecret
+    jwt_key: grizzly-jwtKey
+    url: http://localhost:8090
+
+resource-url: ./target/classes/transformation.zip
+jwt:
+  private-key: MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBANm6aiPtohr1SBTWtQcvGcVQMeQB5TbdvSPLII/ioFEUct/z255XKAKvC/l8HB8Nhg7WEwUolj82ysGMYxmREO/QXr+RVfkjlAR0JCFqsuP2FmsklAnLhGd19T3433cm7BTiaVYvJvW7b0WhD4i08v6jGXg0RKBdQHglYM2c4G5bAgMBAAECgYBL+BpezOSaCWmMM9pYVlvkl/XAe9TRjw8WtSJ4cffEMqFeeQTxO7HvNcq001QwlZRoCtP6Ic5C4khevjA51H8WuNs8dZvgK49YofQZHuyoiMQoQ7VRpXsBQzjmG0nJ/OzKQzKrbOiq2MfS/V3zCldsMn7EiFTnjHehEJcr50Ya4QJBAP8X7x04lELhhneDHQ2qybS80z2pLH/fBZPFjcSp+lPrj1wYs3wyQNVg62eLn+3eqgkwOl5r1iBpZCJfvDxZH5ECQQDagHz+y/8WGobWv13Ha/3wHC0imoNBRaIHglmKPrhz8kG/zY40lXA+rkRQRpa5mGH4G5BDp8dj0dryjkoZF5ErAkBANVYKlOM8smeWTXpSplp/E8hYDO0Wgpx0xZUZm29XEEPVeqIy8LNBAlQ+i/aFeTZzeaA3hA0xu1VpEY/f4M8BAkEAuokIrMlgyvD4fiq/F7m0/6A+VBVOypF0wy5f3Kqw86M0yFbm+TM+sPQ7M8EfefCCarq1TVzV1vzYC0y4K3W4IwJAWjeXsQHnKfmco21+8pmZFGREqIIWH7S3lwnNsdRWBOZLrOaLAmc9CQpiniGIusteCqOKkiozrDsZt7jf6VMy5w==
+  public-key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZumoj7aIa9UgU1rUHLxnFUDHkAeU23b0jyyCP4qBRFHLf89ueVygCrwv5fBwfDYYO1hMFKJY/NsrBjGMZkRDv0F6/kVX5I5QEdCQharLj9hZrJJQJy4RndfU9+N93JuwU4mlWLyb1u29FoQ+ItPL+oxl4NESgXUB4JWDNnOBuWwIDAQAB
+aws:
+  accessKey: awsAccessKeyForDockerExport
+  secretKey: awsSecretKeyForDockerExport
+environment: local

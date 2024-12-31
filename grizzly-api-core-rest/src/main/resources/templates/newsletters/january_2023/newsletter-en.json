@@ -1,0 +1,17 @@
+{
+  "title": "Welcome",
+  "titleMessage": "Grizzly API",
+  "subTitle": "What is new in Grizzly API ?",
+  "message": "We are pleased to announce the latest release of Grizzly API, version 3.0, which includes a variety of new features and enhancements designed to optimize your user experience.",
+  "message1": "Here is the good news, Grizzly API is now free and open-source! Our belief in the power of collaboration and innovation within the community has led us to offer our project freely available to everyone.",
+  "btnMessage": "Try it now",
+  "grizzlyTypesMessage": "With Grizzly API, it is possible to create three different types of microservices: IAM, API, and Markup API, each of which can be configured with various security options.",
+  "uploadMessage": "Grizzly API allow the management of your Open Data, which is stored in CSV files by uploading, saving, and making APIs accessible for the data",
+  "aggregationMessage": "Grizzly API now supports MongoDB's aggregation and count operations on your APIs, in addition to the previously available query operation",
+  "opensourceMessage": "Launch an open source version of Grizzly API on Github",
+  "securityMessage": "Secure the created REST APIs with IAM and other Identity Providers like Keycloak, Google, Facebook, Linkedin, Github and Gitlab",
+  "docMessage": "You'll find detailed guides and comprehensive documentation to help you start working with Grizzly API, CLI and Editor as quickly as possible, as well as a support if you get stuck.",
+  "docbtnMessage": "Jump right in!",
+  "btnSubMessage": "Check it out",
+  "contactEmail": "contact@grizzly-api.com"
+}

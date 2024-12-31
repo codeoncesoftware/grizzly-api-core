@@ -1,0 +1,17 @@
+{
+  "title": "Welcome",
+  "titleMessage": "Grizzly API V2",
+  "subTitle": "What is new in Grizzly API",
+  "message": "We're pleased to introduce Grizzly API VERSION 2 newsletter. With this newsletter, we’ll keep you informed of new features we’ve just launched and the newest functionalities. See the latest and greatest from Grizzly API.",
+  "btnMessage": "Try it now",
+  "editorMessage": "Grizzly Editor is an effective tool to create instant microservices, created for developers and enterprises for optimal microservice design.",
+  "cliMessage": "Grizzly API offers an npm package to create your microservices with a few shell commands.",
+  "clibtnMessage": "Download the package",
+  "docMessage": "You'll find detailed guides and comprehensive documentation to help you start working with Grizzly API ,CLI and Editor as quickly as possible, as well as a support if you get stuck.",
+  "docbtnMessage": "Jump right in!",
+  "swaggerMessage": " Grizzly API allows you now to simply add your swagger models using TypeScript format while remaining standard swagger",
+  "organizationMessage": "Smoothly manage your organization, teams and team members . Make your work more coherent and share your microservices with your teammates easily",
+  "btnSubMessage": "Check it out",
+  "contactEmail": "contact@grizzly-api.com",
+  "editorBtn": "Launch Editor"
+}
